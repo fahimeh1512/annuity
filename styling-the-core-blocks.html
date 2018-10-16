@@ -1,0 +1,767 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9" lang="en-US"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Styling the Core Blocks &#8211; Annuity</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Annuity &raquo; Feed" href="http://e-merald.com/themes/annuity-wp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Annuity &raquo; Comments Feed" href="http://e-merald.com/themes/annuity-wp/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/e-merald.com\/themes\/annuity-wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='annuity-style-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-grid-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/grid.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-base-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/base.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-layout-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/layout.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-primary-color-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/primary-color/blue.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-secondary-color-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/secondary-color/orange.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-extra-color-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/extra-color/red.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-fonts-css'  href='https://fonts.googleapis.com/css?family=Quattrocento+Sans%3A400%2C700%2C400italic%2C700italic%7CMontserrat%3A400%2C700%2C500%7COpen+Sans%3A300%2C600%2C400%7CRoboto+Slab%3A400&#038;subset=latin%2Clatin-ext&#038;ver=1527659937' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity-child/style.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-switcher-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity-child/switcher.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='annuity-typo-sample-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity-child/typography-default.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/font-awesome.min.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ionicons-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/ionicons.min.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/animate.min.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/magnific-popup.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/owl.carousel.min.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-theme-css'  href='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/css/owl.theme.default.min.css?ver=1.4.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://e-merald.com/themes/annuity-wp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://e-merald.com/themes/annuity-wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://e-merald.com/themes/annuity-wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="http://e-merald.com/themes/annuity-wp/resources/general/styling-the-core-blocks/" />
+<link rel='shortlink' href='http://e-merald.com/themes/annuity-wp/?p=385' />
+<link rel="alternate" type="application/json+oembed" href="http://e-merald.com/themes/annuity-wp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fe-merald.com%2Fthemes%2Fannuity-wp%2Fresources%2Fgeneral%2Fstyling-the-core-blocks%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://e-merald.com/themes/annuity-wp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fe-merald.com%2Fthemes%2Fannuity-wp%2Fresources%2Fgeneral%2Fstyling-the-core-blocks%2F&#038;format=xml" />
+<style type="text/css">@media (min-width: 1520px), (min-width: 1360px) and (max-width: 1519px) and (-webkit-min-device-pixel-ratio: 1.5),
+					(min-width: 1360px) and (max-width: 1519px) and (-o-min-device-pixel-ratio: 3/2),
+					(min-width: 1360px) and (max-width: 1519px) and (min-resolution: 1.5dppx),
+					(min-width: 1360px) and (max-width: 1519px) and (min-resolution: 144dpi) {
+#hero-image .banner-page-id-385 {background-image: url(http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/banner-coffee-pen.jpg);}
+}
+@media (max-width: 1519px) and (-webkit-max-device-pixel-ratio: 1.5),
+					(max-width: 1519px) and (-o-max-device-pixel-ratio: 3/2),
+					(max-width: 1519px) and (max-resolution: 1.5dppx),
+					(max-width: 1519px) and (max-resolution: 144dpi),
+					(max-width: 1359px) and (-webkit-min-device-pixel-ratio: 1.5),
+					(max-width: 1359px) and (-o-min-device-pixel-ratio: 3/2),
+					(max-width: 1359px) and (min-resolution: 1.5dppx),
+					(max-width: 1359px) and (min-resolution: 144dpi) {
+#hero-image .banner-page-id-385 {background-image: url(http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/banner-coffee-pen-1440x480.jpg);}
+}
+</style>
+</head>
+
+<body class="page-template-default page page-id-385 page-child parent-pageid-217 primary-mobile-menu-tabv-ph">
+
+
+<!-- START HEADER -->
+
+<header id="header">
+	
+	<div class="container"> <!-- Container -->
+		
+		<!-- Logo -->
+		<div id="logo" class="retina-image-loaded">
+			<a href="http://e-merald.com/themes/annuity-wp/">
+								<img src="http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/images/logo.png" alt="Annuity" class="normal-dpi">
+								<img src="http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/images/logo-2x.png" alt="Annuity" class="high-dpi">
+							</a>
+		</div>
+		
+		<!-- Header Navigation -->
+		<nav id="navigation">
+			
+						<!-- Mobile Side Menu -->
+			<div id="mobile-nav-toggle">
+				<a id="mobile-menu-button" href="#mobile-nav"><i class="fa fa-bars"></i></a>
+			</div>
+						
+						
+						<!-- Main Menu -->
+			<div id="primary-nav">
+				<ul id="main-menu" class=""><li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-233"><a href="http://e-merald.com/themes/annuity-wp/">Home</a></li>
+<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-234"><a href="http://e-merald.com/themes/annuity-wp/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="http://e-merald.com/themes/annuity-wp/about-us/">Overview</a></li>
+	<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="http://e-merald.com/themes/annuity-wp/about-us/our-difference/">Why We Are Different</a></li>
+	<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="http://e-merald.com/themes/annuity-wp/about-us/team/">Meet the Team</a></li>
+	<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="http://e-merald.com/themes/annuity-wp/about-us/history/">Our History</a></li>
+</ul>
+</li>
+<li id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-239"><a href="#">What We Do</a>
+<ul class="sub-menu">
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="http://e-merald.com/themes/annuity-wp/what-we-do/how-we-can-help/">How We Can Help</a></li>
+	<li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-244"><a href="http://e-merald.com/themes/annuity-wp/what-we-do/services/">Our Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-247"><a href="http://e-merald.com/themes/annuity-wp/service/cash-flow-management/">Cash Flow Management</a></li>
+		<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-248"><a href="http://e-merald.com/themes/annuity-wp/service/growing-wealth/">Growing Wealth</a></li>
+		<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-251"><a href="http://e-merald.com/themes/annuity-wp/service/risk-management-personal-insurance/">Risk Management &#038; Personal Insurance</a></li>
+		<li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-250"><a href="http://e-merald.com/themes/annuity-wp/service/retirement-planning-superannuation/">Retirement Planning &#038; Superannuation</a></li>
+		<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-252"><a href="http://e-merald.com/themes/annuity-wp/service/tax-planning/">Tax Planning</a></li>
+		<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-249"><a href="http://e-merald.com/themes/annuity-wp/service/investment-planning-and-strategy/">Investment Planning and Strategy</a></li>
+		<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-246"><a href="http://e-merald.com/themes/annuity-wp/service/business-advice/">Business Advice</a></li>
+	</ul>
+</li>
+	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-242"><a href="http://e-merald.com/themes/annuity-wp/what-we-do/how-we-work/">How We Work</a>
+	<ul class="sub-menu">
+		<li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="http://e-merald.com/themes/annuity-wp/what-we-do/how-we-work/">Financial Planning Process</a></li>
+		<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="http://e-merald.com/themes/annuity-wp/what-we-do/how-we-work/investment-approach/">Investment Approach</a></li>
+	</ul>
+</li>
+	<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="http://e-merald.com/themes/annuity-wp/what-we-do/fees/">Fees</a></li>
+</ul>
+</li>
+<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-253"><a href="http://e-merald.com/themes/annuity-wp/who-we-help/">Our Clients</a>
+<ul class="sub-menu">
+	<li id="menu-item-254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="http://e-merald.com/themes/annuity-wp/who-we-help/">Who We Help</a></li>
+	<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-257"><a href="http://e-merald.com/themes/annuity-wp/who-we-help/how-to-get-started/">How to Get Started</a></li>
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-255"><a href="http://e-merald.com/themes/annuity-wp/who-we-help/client-stories/">Client Stories</a>
+	<ul class="sub-menu">
+		<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-262"><a href="http://e-merald.com/themes/annuity-wp/work/paying-for-your-childs-education/">Paying For Your Child&#8217;s Education</a></li>
+		<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-263"><a href="http://e-merald.com/themes/annuity-wp/work/planning-for-retirement/">Planning For Retirement</a></li>
+		<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-261"><a href="http://e-merald.com/themes/annuity-wp/work/increasing-income-from-investments/">Increasing Income From Investments</a></li>
+		<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-259"><a href="http://e-merald.com/themes/annuity-wp/work/estate-planning/">Estate Planning</a></li>
+		<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-266"><a href="http://e-merald.com/themes/annuity-wp/work/tax-planning/">Tax Planning</a></li>
+		<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-258"><a href="http://e-merald.com/themes/annuity-wp/work/business-owners/">Business Owners</a></li>
+		<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-260"><a href="http://e-merald.com/themes/annuity-wp/work/financial-planning-during-divorce/">Financial Planning During Divorce</a></li>
+		<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-264"><a href="http://e-merald.com/themes/annuity-wp/work/planning-for-your-familys-financial-security/">Planning For Your Family&#8217;s Financial Security</a></li>
+		<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-emd_work menu-item-265"><a href="http://e-merald.com/themes/annuity-wp/work/preparing-for-uncertainty/">Preparing For Uncertainty</a></li>
+	</ul>
+</li>
+	<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256"><a href="http://e-merald.com/themes/annuity-wp/who-we-help/faqs/">FAQs</a></li>
+</ul>
+</li>
+<li id="menu-item-267" class="sf-mega-parent menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-267 top-current-menu-ancestor"><a href="#">Resources</a>
+<div class="sf-mega">
+<ul class="sub-menu">
+	<li class="sf-mega-section width-200px has-children current-menu-ancestor"><h6>General</h6>
+	<ul class="sub-menu">
+		<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="http://e-merald.com/themes/annuity-wp/resources/general/typography/">Typography</a></li>
+		<li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269"><a href="http://e-merald.com/themes/annuity-wp/resources/general/grid-system/">Grid System</a></li>
+		<li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="http://e-merald.com/themes/annuity-wp/resources/general/stripe-sections/">Stripe Sections</a></li>
+		<li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="http://e-merald.com/themes/annuity-wp/resources/general/video/">Video</a></li>
+		<li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="http://e-merald.com/themes/annuity-wp/resources/general/lightbox/">LightBox</a></li>
+		<li id="menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-385 current_page_item menu-item-388"><a href="http://e-merald.com/themes/annuity-wp/resources/general/styling-the-core-blocks/">Styling the Core Blocks (Gutenberg Editor)</a></li>
+	</ul>
+</li>
+	<li class="sf-mega-section width-190px has-children"><h6>Elements</h6>
+	<ul class="sub-menu">
+		<li id="menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-277"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/picture-boxes/">Picture Boxes</a></li>
+		<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/icon-boxes/">Icon Boxes</a></li>
+		<li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/stages/">Stages</a></li>
+		<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/feature-lists/">Feature Lists</a></li>
+		<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/info-boxes/">Info Boxes</a></li>
+		<li id="menu-item-282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-282"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/tabs-toggles/">Tabs &#038; Toggles</a></li>
+		<li id="menu-item-281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/split-sections/">Split Sections</a></li>
+		<li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/pullquote/">Pullquote</a></li>
+	</ul>
+</li>
+	<li class="sf-mega-section width-200px has-children title-merged"><h6>Elements 2</h6>
+	<ul class="sub-menu">
+		<li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/testimonials/">Testimonials</a></li>
+		<li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/gallery/">Image Gallery</a></li>
+		<li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/carousel/">Carousel &#038; Slider</a></li>
+		<li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/stats-data/">Stats Data</a></li>
+		<li id="menu-item-289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/pricing-plans/">Pricing Plans</a></li>
+		<li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/standard-tables/">Standard Tables</a></li>
+		<li id="menu-item-288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-288"><a href="http://e-merald.com/themes/annuity-wp/resources/elements/other-elements/">Other Elements</a></li>
+	</ul>
+</li>
+	<li class="sf-mega-section width-220px has-children"><h6>Extra Pages</h6>
+	<ul class="sub-menu">
+		<li id="menu-item-294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href="http://e-merald.com/themes/annuity-wp/home-page-2/">Home Page 2</a></li>
+		<li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a href="http://e-merald.com/themes/annuity-wp/home-page-3/">Home Page 3</a></li>
+		<li id="menu-item-292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-292"><a href="http://e-merald.com/themes/annuity-wp/resources/extra-pages/services-page-2/">Services Page 2</a></li>
+		<li id="menu-item-293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-293"><a href="http://e-merald.com/themes/annuity-wp/resources/extra-pages/team-page-2/">Team Page 2</a></li>
+		<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-emd_staff menu-item-296"><a href="http://e-merald.com/themes/annuity-wp/staff-item/anna-vilkova/">Team Member Profile</a></li>
+		<li id="menu-item-297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-297"><a href="http://e-merald.com/themes/annuity-wp/blog/blog-list-layout/">Blog List Layout</a></li>
+	</ul>
+</li>
+</ul>
+</div>
+</li>
+<li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="http://e-merald.com/themes/annuity-wp/blog/">Blog</a></li>
+<li id="menu-item-299" class="button-item menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="http://e-merald.com/themes/annuity-wp/contact-us/">Contact Us</a></li>
+</ul>			</div>
+			<!-- end Main Menu -->
+						
+		</nav>
+		
+	</div> <!-- end Container -->
+	
+</header>
+
+<!-- END HEADER -->
+
+
+<!-- START CONTENT -->
+
+<section id="main">
+	
+	<!-- Hero Image & Page Title -->
+	<div id="hero-image" class="image-bg">
+	
+		<div class="slide banner-page-id-385" data-caption-bg-color="orange">
+				
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 columns">
+						<div class="page-title-wrapper">
+							<div class="page-title">
+																<h5>Gutenberg Editor</h5>
+																<h1>Styling the Core Blocks</h1>
+							</div>
+						</div>
+												<div class="trapezium-bg"><span></span></div>
+											</div>
+				</div>
+			</div>
+			
+		</div>
+	
+	</div>
+	<!-- end Hero Image & Page Title -->
+	
+	<!-- Page Content -->
+	<div id="page-content" class="fullwidth-layout">
+			
+			<!-- Stripe section -->
+		<div class="stripe stripe-white-bg">
+			<div class="stripe-upper-bg"></div>
+			
+			<div class="container"> <!-- Container -->
+				
+				<div class="row">
+				
+					<div class="col-sm-12 columns">
+						
+						<p class="lead-text-large">This is a Gutenberg element style guide page that showcases how Gutenberg blocks will look in the Annuity theme.</p>
+
+<p>What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post&#8230;</p>
+
+<p><strong>Headings</strong> are separate blocks as well, which helps with the outline and organization of your content.  Heading elements implement six levels of document headings, &lt;h1> is the most important and &lt;h6> is the least.</p>
+
+<h2>Heading Two</h2>
+
+<h3>Heading Three</h3>
+
+<h4>Heading Four</h4>
+
+<h5>Heading Five</h5>
+
+<h6>Heading Six</h6>
+
+<div class="wp-block-columns alignfull has-2-columns"><div class="wp-block-column"><h3>Ordered List</h3>
+
+<ol><li>Make sure you have adequate insurance.</li><li>Set some savings goals. Whether it is accumulating a deposit for a home, paying for a car or saving for a vacation…<ol><li>A second level item…</li><li>Purus commodo ridiculus  non metus auctor fringilla.</li></ol></li><li>Take advantage of employee benefit plans offered by your employer.</li></ol>
+</div>
+
+<div class="wp-block-column"><h3>Unordered List</h3>
+
+<ul><li> Text &amp; Headings</li><li>Images &amp; Videos</li><li>Galleries</li><li>Embeds, like YouTube, Tweets, or other WordPress posts.</li><li>Layout blocks, like Buttons, Hero Images, Separators, etc.</li><li>And <em>Lists</em> like this one of course</li></ul>
+</div>
+</div>
+
+<h2>Image Block</h2>
+
+<p>Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you’ll find aspects of adding captions or going full-width with your pictures much easier and robust than before.</p>
+
+<figure class="wp-block-image"><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/banner-railway-station-1440x640.jpg" alt="Railway Station" class="wp-image-18"/><figcaption>Here you can write a caption for this image</figcaption></figure>
+
+<p>Try selecting and removing or editing the <strong>caption</strong>, now you don’t have to be careful about selecting the image or other text by mistake and ruining the presentation. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+<div class="wp-block-image"><figure class="alignleft"><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/sidebar-banner1-portrait-240x300.jpg" alt="Sidebar Banner 1 - portrait" class="wp-image-86" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/sidebar-banner1-portrait-240x300.jpg 240w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/sidebar-banner1-portrait.jpg 540w" sizes="(max-width: 240px) 100vw, 240px" /></figure></div>
+
+<p><strong>Left aligned image:</strong> dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Mauris auctor nulla sit amet libero molestie interdum.</p>
+
+<div class="wp-block-image"><figure class="alignright"><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/service-workplace-540x405.jpg" alt="Workplace" class="wp-image-85" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-workplace-540x405.jpg 540w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-workplace-300x225.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-workplace-768x576.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-workplace.jpg 900w" sizes="(max-width: 540px) 100vw, 540px" /><figcaption> This one is captioned</figcaption></figure></div>
+
+<p>Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Nullam quis risus.  Enim cursus massa malesuada tempus praesent congue molestie tristique nullam tortor leo, tristique ac tempus eget, vestibulum nec ante. Aenean sit amet lorem vel eros viverra convallis at eu metus.</p>
+
+<p><strong>Right aligned i<strong>mage</strong>:</strong> dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+
+<div class="clear"></div>
+
+<hr class="wp-block-separator"/>
+
+<div class="wp-block-button aligncenter is-style-outline"><a class="wp-block-button__link" href="#">Center Aligned Button</a></div>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2>Preformatted Block<br/></h2>
+
+<pre class="wp-block-preformatted">footer-bottom {
+<code>   position: relative;
+   padding: 20px 0;
+   background-color: #384b54;</code><br/>}</pre>
+
+<h3>Code</h3>
+
+<pre class="wp-block-code"><code>In order to give financial advice in Australia, you need to have a licence from the Australian Securities and Investments Commission (ASIC).</code></pre>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2>Separator</h2>
+
+<p>Here are examples of the three separator styles of the core Gutenberg separator block.</p>
+
+<hr class="wp-block-separator"/>
+
+<hr class="wp-block-separator is-style-wide"/>
+
+<hr class="wp-block-separator is-style-dots"/>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2>Table</h2>
+
+<p>Here is an example of the core Gutenberg table block.</p>
+
+<table class="wp-block-table"><tbody><tr><th>Movie Title</th><th>Genre</th><th>Year</th><th>Gross</th></tr><tr><td>Star Wars</td><td>Adventure, Sci-fi</td><td>1977</td><td>$460,935,66</td></tr><tr><td>Howard The Duck</td><td>Comedy</td><td>1986<br/></td><td> $16,295,77</td></tr><tr><td>American Graffiti</td><td>Comedy, Drama</td><td>1973</td><td>$115,000,00</td></tr></tbody></table>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2>Button</h2>
+
+<p>Want visitors to click to subscribe, buy, or read more? Get their attention with a button.</p>
+
+<div class="wp-block-button alignleft"><a class="wp-block-button__link" href="#">Rounded Button<br/></a></div>
+
+<div class="wp-block-button alignleft is-style-squared"><a class="wp-block-button__link" href="#">Squared Button<br/></a></div>
+
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="#"> Outlined Button </a></div>
+
+<div class="clear"></div>
+
+<p>The alternate button color styles can be targeted using the <code>.button-colored</code> and <code>.button-grey</code> additional CSS classes.</p>
+
+<div class="wp-block-button alignleft is-style-outline button-colored"><a class="wp-block-button__link" href="#">Colored Outlined Button</a></div>
+
+<div class="wp-block-button is-style-outline button-grey"><a class="wp-block-button__link" href="#">Grey Outlined Button</a></div>
+
+<div class="clear"></div>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2>File Block<br/></h2>
+
+<p>Add a link to a file that visitors can download. Optionally, you can show or hide the <em>Download Button</em>.</p>
+
+<div class="wp-block-file"><a href="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/image-calculator.png" target="_blank" rel="noreferrer noopener">Financial Services Guide</a><a href="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/image-calculator.png" class="wp-block-file__button" download="Financial Services Guide">Download PDF</a></div>
+
+<div class="wp-block-cover-image has-background-dim alignfull has-undefined-content" style="background-image:url(http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/custom-bg-touchscreen.jpg)"><p class="wp-block-cover-image-text"><strong>Cover Image</strong><br/>Add a full-width image, and layer text over it — great for headers</p></div>
+
+<h2>Cover Image Block</h2>
+
+<p>Here we are testing the positioning and styling of the cover image core block. The samples are set with the <em>wide</em> and <em>full</em> alignments, as well as <em>left</em>/<em>right</em>.</p>
+
+<div class="wp-block-cover-image has-background-dim alignleft" style="background-image:url(http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/service-coffee-pen.jpg)"><p class="wp-block-cover-image-text">Left Aligned Cover Image</p></div>
+
+<p><strong>Left aligned:</strong> dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+
+<p>Proin viverra ipsum ut tortor tincidunt sodales mauris ipsum id ultricies elit. Mauris auctor nulla sit amet libero molestie interdum hasellus consectetur egestas erat, at euismod nisl sodales.</p>
+
+<div class="wp-block-cover-image has-background-dim-30 has-background-dim alignright" style="background-image:url(http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/post-entrepreneur.jpg)"><p class="wp-block-cover-image-text">Right Aligned Cover Image</p></div>
+
+<p><strong>Right aligned:</strong> scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.  Aliquam dignissim lorem ac leo egestas pellentesque.  Sed vulputate, nunc a cursus imperdiet, felis tortor interdum purus, non viverra justo libero et erat.</p>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.  Phasellus consectetur egestas erat, at euismod nisl sodales a sit amet lacus posuere lacus ullamcorper tempus.  Nullam tortor leo, tristique ac tempus eget, vestibulum nec ante. Aenean sit amet lorem vel eros viverra convallis at eu metus.</p>
+
+<div class="clear"></div>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2>Columns<br/></h2>
+
+<p>Add a block that displays content in multiple columns, then add whatever content blocks you&#8217;d like. You can combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with columns.</p>
+
+<div class="wp-block-columns alignfull has-2-columns"><div class="wp-block-column"><h4 style="text-align:center">Audio in column 1</h4>
+
+<figure class="wp-block-audio"><audio controls src="http://e-merald.com/themes/_media/ambiphonic.mp3"></audio><figcaption>Music by <a href="https://www.jamendo.com/en/track/20236/ambiphonic" rel="noreferrer noopener" target="_blank">Zeropage</a>, from Ambient Pills album (CC BY 3.0)</figcaption></figure>
+</div>
+
+<div class="wp-block-column"><h4 style="text-align:center">Audio in column 2</h4>
+
+<figure class="wp-block-audio"><audio controls src="http://e-merald.com/themes/_media/ambiphonic.mp3"></audio><figcaption> An example of an Audio Block caption</figcaption></figure>
+</div>
+</div>
+
+<div class="wp-block-columns has-3-columns"><div class="wp-block-column"><h4>Column 1</h4>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+</div>
+
+<div class="wp-block-column"><h4>Column 2</h4>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+</div>
+
+<div class="wp-block-column"><h4>Column 3</h4>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+</div>
+</div>
+
+<hr class="wp-block-separator is-style-dots"/>
+
+<div class="wp-block-columns has-4-columns"><div class="wp-block-column"><h5>Column 1</h5>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condim entum quam.</p>
+</div>
+
+<div class="wp-block-column"><h5>Column 2</h5>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condim entum quam.</p>
+</div>
+
+<div class="wp-block-column"><h5>Column 3</h5>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condim entum quam.</p>
+</div>
+
+<div class="wp-block-column"><h5>Column 4</h5>
+
+<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condim entum quam.</p>
+</div>
+</div>
+
+<div class="wp-block-columns alignfull has-1-columns"><div class="wp-block-column"><h2 style="text-align:center">Quote</h2>
+</div>
+</div>
+
+<p>A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content.</p>
+
+<blockquote class="wp-block-quote is-style-default"><p>Taxes, fees and poor diversification can eat away at your returns. Far too many people ignore the impact these factors can have on investment growth. We don&#8217;t.</p><cite><strong>Richard Smart</strong>, the Founder of Annuity Strategic</cite></blockquote>
+
+<p>Integer vel enim mi, sed suscipit neque. Integer at enim cursus massa malesuada tempus. Nullam tortor leo, tristique ac tempus eget, vestibulum nec ante. Aenean sit amet lorem vel eros viverra convallis at eu metus.</p>
+
+<hr class="wp-block-separator"/>
+
+<h3>Alternate Quote</h3>
+
+<p>The alternate quote style can be targeted using the <code>.is-large</code> additional CSS class.</p>
+
+<blockquote style="text-align:left" class="wp-block-quote is-large"><p> Taxes, fees and poor diversification can eat away at your returns. Far too many people ignore the impact these factors can have on investment growth. We don&#8217;t.</p><cite><strong>Richard Smart</strong>, the Founder of Annuity Strategic</cite></blockquote>
+
+<p>Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna sed diam ed diam eget risus varius eget.</p>
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<hr class="wp-block-separator"/>
+
+<p style="text-align:center" class="lead-text-large margin-bottom-5px">Below is an example of the <strong>gallery</strong> core block</p>
+
+<p style="color:#909090;text-align:center" class="lead-text-basic">with the full-width alignment</p>
+
+<ul class="wp-block-gallery alignfull columns-3 is-cropped"><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/picture04.jpg" alt="Picture 4" data-id="59" data-link="http://localhost/e-merald/themes/transvision-wp/business-meeting/" class="wp-image-59" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture04.jpg 900w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture04-300x177.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture04-768x452.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture04-540x318.jpg 540w" sizes="(max-width: 900px) 100vw, 900px" /></figure></li><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/picture-appointment.jpg" alt="Appointment" data-id="69" data-link="http://localhost/e-merald/themes/transvision-wp/work/preparing-for-uncertainty/picture-appointment/" class="wp-image-69" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture-appointment.jpg 900w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture-appointment-300x150.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture-appointment-768x384.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture-appointment-540x270.jpg 540w" sizes="(max-width: 900px) 100vw, 900px" /></figure></li><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/service-making-notes.jpg" alt="Making Notes" data-id="83" data-link="http://localhost/e-merald/themes/transvision-wp/making-notes-3/" class="wp-image-83" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-making-notes.jpg 900w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-making-notes-300x225.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-making-notes-768x576.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/service-making-notes-540x405.jpg 540w" sizes="(max-width: 900px) 100vw, 900px" /></figure></li></ul>
+
+<h2>Pullquote</h2>
+
+<p>Here is an example of the core pull quote block with <strong>default alignment</strong>. Highlight a quote from your post or page by displaying it as a graphic element. Nulla ornare neque sit amet magna volutpat cursus sit amet sollicitudin massa.</p>
+
+<figure class="wp-block-pullquote"><blockquote><p> As investment analyst, my goal has been to create a successful investment experience for our clients. As a result, we&#8217;ve been able to retain 95% of our clients.</p><cite>Steve Garcia, Investment Analyst, CFP®</cite></blockquote></figure>
+
+<p>Here is an example of the core pull quote block, set to display with the <strong>wide-aligned</strong> attribute — the theme allows it.</p>
+
+<figure class="wp-block-pullquote alignfull"><blockquote><p>As investment analyst,  my goal has been to create a successful investment experience for our clients. As a result, we&#8217;ve been able to retain 95% of our clients.<br/></p><cite> Steve Garcia, Investment Analyst, CFP® </cite></blockquote></figure>
+
+<figure class="wp-block-pullquote alignleft"><blockquote><p>Here we have a left-aligned pullquote.</p><cite>Rich Tabor</cite></blockquote></figure>
+
+<p>Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Nulla ornare neque sit amet magna volutpat cursus sit amet sollicitudin massa.</p>
+
+<p>Nullam quis risus.  Enim cursus massa malesuada tempus praesent congue molestie tristique nullam tortor leo, tristique ac tempus eget, 
+vestibulum nec ante. Aenean sit amet lorem vel eros viverra convallis at eu metus.</p>
+
+<figure class="wp-block-pullquote alignright"><blockquote><p>Here we have a right-aligned pullquote.</p><cite>Richard Smart</cite></blockquote></figure>
+
+<p>Proin viverra ipsum ut tortor tincidunt sodales mauris ipsum id ultricies elit. Mauris auctor nulla sit amet libero molestie interdum hasellus consectetur egestas erat, at euismod nisl sodales. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+
+<p>Enim cursus massa malesuada tempus praesent congue molestie tristique nullam tortor leo, tristique ac tempus eget, vestibulum nec ante. Aenean sit amet lorem vel eros viverra convallis at eu metus. Phasellus consectetur egestas erat, at euismod nisl sodales a sit amet lacus posuere lacus ullamcorper tempus.</p>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2>Video Block</h2>
+
+<p>Videos are the important part of a content. The video block allows you to embed  self-hosted video files and play them back using a simple player. Drag a video, upload a new one or select a file from your library. Below is an example of the video core block with the <strong>center alignment</strong>.</p>
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<figure class="wp-block-video aligncenter"><video controls poster="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/video-poster.jpg" src="http://e-merald.com/themes/_media/taste-lab-1280x720.webm"></video><figcaption> Here you can write a caption for this video </figcaption></figure>
+
+<div class="wp-block-columns alignfull has-1-columns"><div class="wp-block-column"><h2>
+Latest Posts
+
+</h2>
+
+<p>Display a list of your most recent posts. Here is an example with the <strong>Grid View</strong> option selected.</p>
+
+<ul class="wp-block-latest-posts is-grid columns-3"><li><a href="http://e-merald.com/themes/annuity-wp/college-savings-plan-2016-what-has-changed/">College Savings Plan 2016: What has Changed?</a><time datetime="2017-03-18T16:33:08+00:00" class="wp-block-latest-posts__post-date">March 18, 2017</time></li>
+<li><a href="http://e-merald.com/themes/annuity-wp/tax-deductions-and-credits-that-are-often-missed/">Tax Deductions and Credits that are often missed</a><time datetime="2017-01-21T16:31:18+00:00" class="wp-block-latest-posts__post-date">January 21, 2017</time></li>
+<li><a href="http://e-merald.com/themes/annuity-wp/annuity-strategic-named-to-2016-financial-times-300-top-registered-advisors/">Annuity Strategic Named to 2016 Financial Times 300 Top Registered Advisors</a><time datetime="2016-12-10T16:28:55+00:00" class="wp-block-latest-posts__post-date">December 10, 2016</time></li>
+<li><a href="http://e-merald.com/themes/annuity-wp/how-a-little-planning-can-go-a-long-way/">How a Little Planning can go a Long Way</a><time datetime="2016-10-22T15:51:04+00:00" class="wp-block-latest-posts__post-date">October 22, 2016</time></li>
+<li><a href="http://e-merald.com/themes/annuity-wp/the-importance-of-a-family-meeting/">The Importance of a Family Meeting</a><time datetime="2016-06-07T15:48:39+00:00" class="wp-block-latest-posts__post-date">June 7, 2016</time></li>
+</ul></div>
+</div>
+
+<h2>Gallery Block</h2>
+
+<p>Display multiple images in an elegantly organized tiled layout. Here we have a Gallery Block inserted with three columns and five images.  You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar.</p>
+
+<ul class="wp-block-gallery columns-3 is-cropped"><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/picture01.jpg" alt="Picture 1" data-id="56" data-link="http://localhost/e-merald/themes/transvision-wp/picture01/" class="wp-image-56" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture01.jpg 900w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture01-300x200.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture01-768x512.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture01-540x360.jpg 540w" sizes="(max-width: 900px) 100vw, 900px" /><figcaption>Tax planning</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/picture02.jpg" alt="Picture 2" data-id="57" data-link="http://localhost/e-merald/themes/transvision-wp/picture02/" class="wp-image-57" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture02.jpg 900w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture02-300x200.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture02-768x512.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture02-540x360.jpg 540w" sizes="(max-width: 900px) 100vw, 900px" /><figcaption>Cashflow management</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/picture03.jpg" alt="Picture 3" data-id="58" data-link="http://localhost/e-merald/themes/transvision-wp/picture03/" class="wp-image-58" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture03.jpg 540w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture03-300x244.jpg 300w" sizes="(max-width: 540px) 100vw, 540px" /></figure></li><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/picture09.jpg" alt="Picture 9" data-id="64" data-link="http://localhost/e-merald/themes/transvision-wp/making-notes/" class="wp-image-64" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture09.jpg 900w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture09-300x210.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture09-768x538.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/picture09-540x378.jpg 540w" sizes="(max-width: 900px) 100vw, 900px" /></figure></li><li class="blocks-gallery-item"><figure><img src="http://localhost/e-merald/themes/transvision-wp/wp-content/uploads/2017/08/post-entrepreneur.jpg" alt="Entrepreneur" data-id="75" data-link="http://localhost/e-merald/themes/transvision-wp/post-entrepreneur/" class="wp-image-75" srcset="http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/post-entrepreneur.jpg 900w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/post-entrepreneur-300x150.jpg 300w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/post-entrepreneur-768x384.jpg 768w, http://e-merald.com/themes/annuity-wp/wp-content/uploads/2017/08/post-entrepreneur-540x270.jpg 540w" sizes="(max-width: 900px) 100vw, 900px" /></figure></li></ul>
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2> Classic Block</h2>
+
+<p>The classic block brings back the old editing features of WordPress&#8217; classic editor, also known as TinyMCE. The only available options are the ones you see in the editing toolbar. There are no additional options; not even an additional CSS class.</p>
+<ul>
+<li>Style – various formatting styles defined by the theme</li>
+<li><strong>Bold</strong></li>
+<li><em>Italic</em></li>
+<li>Unordered list (bullet points)</li>
+<li>Ordered list</li>
+<li>Blockquote (a way of displaying quoted text)</li>
+<li>Align Left, Align Center, Align Right</li>
+<li>Insert/Edit Link, Remove Link</li>
+</ul>
+
+<div class="wp-block-columns alignfull has-1-columns"><div class="wp-block-column"><h2>Embed Blocks</h2>
+
+<p>Embed blocks allow you to insert third-party content (video, audio, images, tweets, etc.) onto your WordPress site. With Gutenberg, you have a generic embed block, as well as a handful of more specific ones for a variety of popular services. Below is an example of a video embedded from Dailymotion  (with the <strong>center alignment</strong>).</p>
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<!-- wp:core-embed/dailymotion {"url":"<div class="video-container">
+	<div class="fluid-width-video-wrapper">
+		[embed]https://dai.ly/x6o2sbi[/embed]
+	</div>
+</div>
+","type":"video","providerNameSlug":"dailymotion","align":"center","className":"wp-has-aspect-ratio wp-embed-aspect-16-9"} -->
+<figure class="wp-block-embed-dailymotion aligncenter wp-block-embed is-type-video is-provider-dailymotion wp-has-aspect-ratio wp-embed-aspect-16-9"><div class="wp-block-embed__wrapper">
+<div class="video-container">
+	<div class="fluid-width-video-wrapper">
+		<iframe frameborder="0" width="1290" height="725" src="https://www.dailymotion.com/embed/video/x6o2sbi" allowfullscreen allow="autoplay"></iframe>
+	</div>
+</div>
+
+</div><figcaption> Here you can write a caption for this embedded video</figcaption></figure>
+</div>
+</div>
+
+<h2> Verse Block </h2>
+
+<p>The verse block is for writing poetry and other literary expressions. Unlike traditional paragraph text, it leaves all spaces &amp; 
+line-breaks untouched, displaying them exactly as you enter them.</p>
+
+<pre class="wp-block-verse">Annuity Strategic advisors have a formidable background in financial planning.<br/>They complement each other in providing first class financial advice.<br/>Their honesty, integrity &amp; sincere interest in securing a financial future for their clients makes them a standout group.</pre>
+						
+					</div>
+					
+				</div>
+				
+			</div> <!-- end Container -->
+			
+		</div>
+		<!-- end Stripe section -->
+			
+		<!-- BOTTOM STRIPE SECTION -->
+		<div id="bottom-stripe" class="stripe stripe-bottom stripe-default-bg-image dark-colored-bg">
+			<div class="stripe-upper-bg"></div>
+			
+			<div class="container"> <!-- Container -->
+				
+				<div class="row">
+					
+										<div class="col-sm-12 columns">
+										
+											<!-- Slogan text -->
+						<div class="width-80pct-centered text-center slogan-text">
+							<p class="lead-text-large text-white">We can help you make the most of what you have!</p>
+
+						</div>
+											
+					</div>
+					
+				</div>
+				
+			</div> <!-- end Container -->
+			
+		</div>
+		<!-- end BOTTOM STRIPE SECTION -->
+		
+			</div>
+	<!-- end Page Content -->
+
+
+</section>
+
+<!-- END CONTENT -->
+
+
+<!-- START FOOTER -->
+
+<footer id="footer" class="footer-style-2">
+	
+	<div class="container"> <!-- Container -->
+		
+		<div class="row">
+			
+			<div class="col-sm-4 columns">
+				
+				<!-- Contact Details -->
+				<div class="contact-details offset-md-right-40px clearfix">
+				<h4 class="widget-title">Get in touch</h4>
+
+					<p class="contact-address">Suite 87, Level 12, 316 Adelaide Street, <br>Brisbane City, QLD, 4000</p>
+									<p class="contact-phone"><a href="tel:0736214076" class="phone-number">(07) 3621 4076</a></p>
+									<p class="contact-email"><a href="mailto:info@annuity.com.au">info@annuity.com.au</a></p>
+									<ul class="fa-icon-list clearfix">
+											<li><a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a></li>
+												<li><a href="https://twitter.com" target="_blank" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a></li>
+												<li><a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fa fa-fw fa-linkedin"></i></a></li>
+											</ul>
+								</div>
+				
+			</div>
+			
+						<div class="col-sm-4 columns">
+				
+				<div class="offset-md-right-40px">
+					
+<!-- Navigation Menu -->
+<div id="nav_menu-1" class="widget widget_nav_menu">
+<h4 class="widget-title">Our services</h4>
+<ul id="menu-footer-menu-services" class="footer-menu"><li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-303"><a href="http://e-merald.com/themes/annuity-wp/service/cash-flow-management/">Cash Flow Management</a></li>
+<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-304"><a href="http://e-merald.com/themes/annuity-wp/service/retirement-planning-superannuation/">Retirement Planning &#038; Superannuation</a></li>
+<li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-306"><a href="http://e-merald.com/themes/annuity-wp/service/investment-planning-and-strategy/">Investment Planning and Strategy</a></li>
+<li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-307"><a href="http://e-merald.com/themes/annuity-wp/service/business-advice/">Business Advice</a></li>
+<li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-emd_service menu-item-305"><a href="http://e-merald.com/themes/annuity-wp/service/tax-planning/">Tax Planning</a></li>
+</ul></div>
+<!-- end Navigation Menu -->
+				</div>
+				
+			</div>
+			
+			<div class="col-sm-4 columns">
+				
+
+<!-- Subscription Form -->
+<div id="annuity-subscription-form-4" class="widget widget-subscription-form">
+<h4 class="widget-title">Stay informed</h4>
+			
+			<form action="http://e-merald.com/themes/annuity-wp/resources/general/styling-the-core-blocks/" method="post" class="subscription-form" id="subscription-form-4">
+				<fieldset class="subscription-fields-wrapper">
+					<div class="field-subscriber-name">
+						<input type="text" name="subscriber_name" value="" maxlength="200" placeholder="Name *" required>
+					</div>
+					<div class="field-subscriber-email">
+						<input type="email" name="subscriber_email" value="" maxlength="100" placeholder="Email *" required>
+					</div>
+					<div class="field-blank">
+						<input type="text" name="sender-name" value="" placeholder="Leave this field blank">
+					</div>
+					<div class="hidden-xs-up">
+						<input name="action" type="hidden" value="annuity_process_subscription_form_data">
+						<input type="hidden" id="_annuity_nonce_sf" name="_annuity_nonce_sf" value="57a246a62a" /><input type="hidden" name="_wp_http_referer" value="/themes/annuity-wp/resources/general/styling-the-core-blocks/" />					</div>
+					<div class="field-submit">
+						<input type="submit" name="subscribe" value="" class="button-std">
+						<span class="loader hidden-xs-up"></span>
+					</div>
+				</fieldset>
+			</form>
+			
+			<div class="subscription-form-message info">
+				<p>Sign up to receive the latest news and resources</p>
+			</div>
+			
+			<script>
+				(function () {
+					var form = document.getElementById( 'subscription-form-4' ),
+						fieldWrapper = form.getElementsByClassName( 'field-blank' );
+					fieldWrapper[0].removeChild( form.elements['sender-name'] );
+				})();
+			</script>
+			
+			</div>
+<!-- end Subscription Form -->
+			</div>
+						
+		</div>
+		
+	</div> <!-- end Container -->
+	
+</footer>
+
+<footer id="footer-bottom">
+	
+	<div class="container"> <!-- Container -->
+		
+		<div class="row">
+			
+			<div class="columns bottom-left-col">
+			<p>© 2017 Annuity WordPress Theme</p>
+			</div>
+			
+			<div class="columns bottom-right-col">
+				<ul id="menu-bottom-links" class="links"><li id="menu-item-300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300"><a href="#">Privacy Policy</a><span>|</span></li>
+<li id="menu-item-301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-301"><a href="#">Terms &#038; Conditions</a><span>|</span></li>
+<li id="menu-item-302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-302"><a href="#">Financial Services Guide</a><span>|</span></li>
+</ul>			</div>
+			
+						<span class="scroll-top"><i class="ion ion-android-arrow-up"></i></span>
+					
+		</div>
+			
+	</div> <!-- end Container -->
+	
+</footer>
+
+<!-- END FOOTER -->
+
+
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/plugins/twitter-feed-oauth/js/jquery.tweet.min.js?ver=1.2'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/js/jquery.easing.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/js/jquery.cycle2.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/js/jquery.cycle2.swipe.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/js/jquery.fitvids.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/js/jquery.magnific-popup.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/js/owl.carousel.js?ver=1.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var annuityCustomDataObj = {"fixedMenu":"","mobileMenu":"tablets-portrait-phones","ajaxUrl":"http:\/\/e-merald.com\/themes\/annuity-wp\/wp-admin\/admin-ajax.php","recipientEmailSubscr":"support@e-merald.com","emailSubjectSubscr":"[Annuity] New subscriber added via the subscription form","successMsgSubscr":"Your email address has been added to our newsletter mailing list.","errorMsgSubscr":"Failed to send your subscription request. Please try again later.","errorMsg2":"Unexpected error. Please try again later.","successMsg":"Your message has been sent.","errorMsg":"Failed to send your message. Please try again later."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity/js/custom.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-content/themes/annuity-child/switcher.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://e-merald.com/themes/annuity-wp/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+
+</body>
+</html>
